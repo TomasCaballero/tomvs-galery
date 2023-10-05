@@ -1,187 +1,187 @@
 const UrbanData = [
     {
         id:1,
-        url: 'src/assets/Urban/1.webp',
-        url2: 'src/assets/Urban/1.jpg',
+        url: '1.webp',
+        url2: '1.jpg',
         formato: 'vertical'
     },
     {
         id:2,
-        url: 'src/assets/Urban/2.webp',
-        url2: 'src/assets/Urban/2.jpg',
+        url: '2.webp',
+        url2: '2.jpg',
         formato: 'cuadrada'
     },
     {
         id:3,
-        url: 'src/assets/Urban/3.webp',
-        url2: 'src/assets/Urban/3.jpg',
+        url: '3.webp',
+        url2: '3.jpg',
         formato: 'horizontal'
     },
     {
         id:4,
-        url: 'src/assets/Urban/4.webp',
-        url2: 'src/assets/Urban/4.jpg',
+        url: '4.webp',
+        url2: '4.jpg',
         formato: 'horizontal'
     },
     {
         id:5,
-        url: 'src/assets/Urban/5.webp',
-        url2: 'src/assets/Urban/5.jpg',
+        url: '5.webp',
+        url2: '5.jpg',
         formato: 'vertical'
     },
     {
         id:6,
-        url: 'src/assets/Urban/6.webp',
-        url2: 'src/assets/Urban/6.jpg',
+        url: '6.webp',
+        url2: '6.jpg',
         formato: 'vertical'
     },
     {
         id:7,
-        url: 'src/assets/Urban/7.webp',
-        url2: 'src/assets/Urban/7.jpg',
+        url: '7.webp',
+        url2: '7.jpg',
         formato: 'horizontal'
     },
     {
         id:8,
-        url: 'src/assets/Urban/8.webp',
-        url2: 'src/assets/Urban/8.jpg',
+        url: '8.webp',
+        url2: '8.jpg',
         formato: 'vertical'
     },
     {
         id:9,
-        url: 'src/assets/Urban/9.webp',
-        url2: 'src/assets/Urban/9.jpg',
+        url: '9.webp',
+        url2: '9.jpg',
         formato: 'vertical'
     },
     {
         id:10,
-        url: 'src/assets/Urban/10.webp',
-        url2: 'src/assets/Urban/10.jpg',
+        url: '10.webp',
+        url2: '10.jpg',
         formato: 'vertical'
     },
     {
         id:11,
-        url: 'src/assets/Urban/11.webp',
-        url2: 'src/assets/Urban/11.jpg',
+        url: '11.webp',
+        url2: '11.jpg',
         formato: 'vertical'
     },
     {
         id:12,
-        url: 'src/assets/Urban/12.webp',
-        url2: 'src/assets/Urban/12.jpg',
+        url: '12.webp',
+        url2: '12.jpg',
         formato: 'vertical'
     },
     {
         id:13,
-        url: 'src/assets/Urban/13.webp',
-        url2: 'src/assets/Urban/13.jpg',
+        url: '13.webp',
+        url2: '13.jpg',
         formato: 'vertical'
     },
     {
         id:14,
-        url: 'src/assets/Urban/14.webp',
-        url2: 'src/assets/Urban/14.jpg',
+        url: '14.webp',
+        url2: '14.jpg',
         formato: 'vertical'
     },
     {
         id:15,
-        url: 'src/assets/Urban/15.webp',
-        url2: 'src/assets/Urban/15.jpg',
+        url: '15.webp',
+        url2: '15.jpg',
         formato: 'horizontal'
     },
     {
         id:16,
-        url: 'src/assets/Urban/16.webp',
-        url2: 'src/assets/Urban/16.jpg',
+        url: '16.webp',
+        url2: '16.jpg',
         formato: 'horizontal'
     },
     {
         id:17,
-        url: 'src/assets/Urban/17.webp',
-        url2: 'src/assets/Urban/17.jpg',
+        url: '17.webp',
+        url2: '17.jpg',
         formato: 'vertical'
     },
     {
         id:18,
-        url: 'src/assets/Urban/18.webp',
-        url2: 'src/assets/Urban/18.jpg',
+        url: '18.webp',
+        url2: '18.jpg',
         formato: 'vertical'
     },
     {
         id:19,
-        url: 'src/assets/Urban/19.webp',
-        url2: 'src/assets/Urban/19.jpg',
+        url: '19.webp',
+        url2: '19.jpg',
         formato: 'vertical'
     },
     {
         id:20,
-        url: 'src/assets/Urban/20.webp',
-        url2: 'src/assets/Urban/20.jpg',
+        url: '20.webp',
+        url2: '20.jpg',
         formato: 'cuadrada'
     },{
         id:21,
-        url: 'src/assets/Urban/21.webp',
-        url2: 'src/assets/Urban/21.jpg',
+        url: '21.webp',
+        url2: '21.jpg',
         formato: 'vertical'
     },
     {
         id:22,
-        url: 'src/assets/Urban/22.webp',
-        url2: 'src/assets/Urban/22.jpg',
+        url: '22.webp',
+        url2: '22.jpg',
         formato: 'vertical'
     },
     {
         id:23,
-        url: 'src/assets/Urban/23.webp',
-        url2: 'src/assets/Urban/23.jpg',
+        url: '23.webp',
+        url2: '23.jpg',
         formato: 'vertical'
     },
     {
         id:24,
-        url: 'src/assets/Urban/24.webp',
-        url2: 'src/assets/Urban/24.jpg',
+        url: '24.webp',
+        url2: '24.jpg',
         formato: 'vertical'
     },
     {
         id:25,
-        url: 'src/assets/Urban/25.webp',
-        url2: 'src/assets/Urban/25.jpg',
+        url: '25.webp',
+        url2: '25.jpg',
         formato: 'vertical'
     },
     {
         id:26,
-        url: 'src/assets/Urban/26.webp',
-        url2: 'src/assets/Urban/26.jpg',
+        url: '26.webp',
+        url2: '26.jpg',
         formato: 'vertical'
     },
     {
         id:27,
-        url: 'src/assets/Urban/27.webp',
-        url2: 'src/assets/Urban/27.jpg',
+        url: '27.webp',
+        url2: '27.jpg',
         formato: 'vertical'
     },
     {
         id:28,
-        url: 'src/assets/Urban/28.webp',
-        url2: 'src/assets/Urban/28.jpg',
+        url: '28.webp',
+        url2: '28.jpg',
         formato: 'horizontal'
     },
     {
         id:29,
-        url: 'src/assets/Urban/29.webp',
-        url2: 'src/assets/Urban/29.jpg',
+        url: '29.webp',
+        url2: '29.jpg',
         formato: 'horizontal'
     },
     {
         id:30,
-        url: 'src/assets/Urban/30.webp',
-        url2: 'src/assets/Urban/30.jpg',
+        url: '30.webp',
+        url2: '30.jpg',
         formato: 'horizontal'
     },
     {
         id:31,
-        url: 'src/assets/Urban/31.webp',
-        url2: 'src/assets/Urban/31.jpg',
+        url: '31.webp',
+        url2: '31.jpg',
         formato: 'vertical'
     }
 ];

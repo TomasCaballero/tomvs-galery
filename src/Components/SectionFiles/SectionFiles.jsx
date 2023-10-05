@@ -50,9 +50,9 @@ const SectionFiles = () => {
                 transition={{ duration: 1, ease: 'easeIn', delay:.1}}
             >
                 <NavLink to='/paisajes' className="fileContainer fileContainerPaisajes">
-                    <img src={`src/assets/Paisajes/${arrayPaisajes[0]}.webp`} alt="" className='img1'/>
-                    <img src={`src/assets/Paisajes/${arrayPaisajes[1]}.webp`} alt="" className='img2'/>
-                    <img src={`src/assets/Paisajes/${arrayPaisajes[2]}.webp`} alt="" className='img3'/>
+                    <img src={`/assets/Paisajes/${arrayPaisajes[0]}.webp`} alt="" className='img1'/>
+                    <img src={`/assets/Paisajes/${arrayPaisajes[1]}.webp`} alt="" className='img2'/>
+                    <img src={`/assets/Paisajes/${arrayPaisajes[2]}.webp`} alt="" className='img3'/>
                     <div className='nombreGaleria'>Paisajes</div>
                 </NavLink>
             </motion.div>
@@ -64,9 +64,9 @@ const SectionFiles = () => {
                 transition={{ duration: 1, ease: 'easeIn', delay:.1}}
             >
                 <NavLink to='/animales' className="fileContainer fileContainerAnimales">
-                    <img src={`src/assets/Animales/${arrayAnimales[0]}.webp`} alt="Animales1" className='img1'/>
-                    <img src={`src/assets/Animales/${arrayAnimales[1]}.webp`} alt="Animales2" className='img2'/>
-                    <img src={`src/assets/Animales/${arrayAnimales[2]}.webp`} alt="Animales1" className='img3'/>
+                    <img src={`/assets/Animales/${arrayAnimales[0]}.webp`} alt="Animales1" className='img1'/>
+                    <img src={`/assets/Animales/${arrayAnimales[1]}.webp`} alt="Animales2" className='img2'/>
+                    <img src={`/assets/Animales/${arrayAnimales[2]}.webp`} alt="Animales1" className='img3'/>
                     <div className='nombreGaleria'>Animales</div>
                 </NavLink>
             </motion.div>
@@ -78,9 +78,9 @@ const SectionFiles = () => {
                 transition={{ duration: 1, ease: 'easeIn', delay:.1}}
             >
                 <NavLink to='/urban' className="fileContainer fileContainerUrban">
-                    <img src={`src/assets/Urban/${arrayUrban[0]}.webp`} alt="Urban1" className='img1'/>
-                    <img src={`src/assets/Urban/${arrayUrban[1]}.webp`} alt="Urban2" className='img2'/>
-                    <img src={`src/assets/Urban/${arrayUrban[2]}.webp`} alt="Urban3" className='img3'/>
+                    <img src={`/assets/Urban/${arrayUrban[0]}.webp`} alt="Urban1" className='img1'/>
+                    <img src={`/assets/Urban/${arrayUrban[1]}.webp`} alt="Urban2" className='img2'/>
+                    <img src={`/assets/Urban/${arrayUrban[2]}.webp`} alt="Urban3" className='img3'/>
                     <div className='nombreGaleria'>Urbana</div>
                 </NavLink>
             </motion.div>
