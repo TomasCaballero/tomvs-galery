@@ -9,6 +9,8 @@ const Paisajes = () => {
     const [horientacion, setHorientacion] = useState('');
     const [imgADescargar, setImgADescargar] = useState('');
 
+    const rutaGeneral = 'src/assets/Paisajes/'
+
     const seleccionarImagen = (e) => {
         const url = e.target.src;
         const formato = e.target.name;
@@ -43,7 +45,7 @@ const Paisajes = () => {
                 {
                     PaisajesData.map((paisaje) => {
                         return (
-                            <motion.img src={paisaje.url} alt={paisaje.id} key={paisaje.id} onClick={seleccionarImagen} name={paisaje.formato} nonce={paisaje.url2} 
+                            <motion.img src={rutaGeneral+paisaje.url} alt={paisaje.id} key={paisaje.id} onClick={seleccionarImagen} name={paisaje.formato} nonce={paisaje.url2} 
                             initial={{opacity: 0.5}}
                             animate={{opacity: 0.5}}
                             whileInView={{opacity: 1}}

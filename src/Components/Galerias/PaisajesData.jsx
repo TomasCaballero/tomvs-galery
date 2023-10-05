@@ -1,19 +1,19 @@
 const PaisajesData = [
     {
         id:1,
-        url: 'src/assets/Paisajes/1.webp',
+        url: '1.webp',
         url2: 'src/assets/Paisajes/1.jpg',
         formato: 'vertical'
     },
     {
         id:2,
-        url: 'src/assets/Paisajes/2.webp',
+        url: '2.webp',
         url2: 'src/assets/Paisajes/2.jpg',
         formato: 'vertical'
     },
     {
         id:3,
-        url: 'src/assets/Paisajes/3.webp',
+        url: '/assets/Paisajes/3.webp',
         url2: 'src/assets/Paisajes/3.jpg',
         formato: 'vertical'
     },
