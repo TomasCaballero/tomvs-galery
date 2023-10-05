@@ -1,0 +1,61 @@
+.banner{
+    margin-top: 0.5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: saddlebrown; */
+}
+.banner h1{
+    position: absolute;
+    font-size: 200px;
+    color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(1px);
+    top: 120px;
+    z-index: 2;
+    text-shadow: 0px 0px 50px rgb(239, 239, 239);
+}
+.banner .imgConFondo{
+    position: absolute;
+    top: 0;
+    background-image: url('../../assets/banner/bannerConFondo.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+}
+
+.banner .imgSinFondo{
+    position: absolute;
+    top: 0;
+    background-image: url('../../assets/banner/bannerSinFondo2.png');
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+    z-index: 3;
+}
+@media (max-width: 570px){
+    .banner h1{
+        font-size: 170px;
+        top: 170px;
+    }
+}
+@media (max-width: 465px){
+    .banner h1{
+        font-size: 150px;
+        top: 170px;
+    }
+}
+@media (max-width: 410px){
+    .banner h1{
+        font-size: 130px;
+        top: 170px;
+    }
+}
+@media (max-width: 365px){
+    .banner h1{
+        font-size: 110px;
+        top: 170px;
+    }
+}

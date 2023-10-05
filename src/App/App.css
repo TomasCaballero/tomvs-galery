@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: monospace; */
+  font-family: 'Dosis', sans-serif;
+}
+/* Layout */
+.layout{
+  background-color: white;
+  width: 100%;
+  max-width: 1300px;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+/* Main General */
+main h4{
+  text-align: center;
+  font-size: 17vw;
+  color: rgba(0, 0, 0, 0.724);
+}
+.galery{
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  columns: 3 220px;
+}
+.galery img{
+  max-width: 100%;
+  margin-bottom: 10px;
+  outline: 2px solid white;
+}
+.card{
+  background-color: rgba(86, 80, 80, 0);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 50px 20px black;
+  overflow: hidden;
+}
+.cardCont{
+  position: relative;
+}
+.imgCard{
+  object-fit: contain;
+}
+.vertical{
+  height: 85vh;
+}
+.horizontal{
+  width: 80vw;
+}
+.cuadrada{
+  width: 90vh;
+}
+.btnCarrar{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.171);
+  backdrop-filter: blur(3px);
+  transition: all 500ms ease-in-out;
+  border: solid 1px black;
+}
+.btnDescargar{
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.53);
+  backdrop-filter: blur(1px);
+  border: solid 1px black;
+  transition: all 500ms ease-in-out;
+  transform: translate(-50%);
+}
+.btnCarrar:hover, .btnDescargar:hover{
+  background-color: white;
+}
+
+
+@media (max-width: 550px){
+  .vertical{
+    width: 95vw;
+    height: auto;
+  }
+  .horizontal{
+    width: 95vw;
+    height: auto;
+  }
+  .cuadrada{
+    width: 47vh;
+    height: auto;
+  }
+}
+
+@media (min-width: 1360px){
+  main h4{
+    font-size:200px;
+  }
+}

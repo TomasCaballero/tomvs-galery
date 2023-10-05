@@ -1,0 +1,138 @@
+.sectionFiles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5rem;
+    width: 100%;
+    /* margin-top: 500px; */
+    padding: 30px;
+    padding-bottom: 15rem;
+    overflow: hidden;
+    background-image: url('src/assets/relleno/3.jpg');
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+
+}
+.sectionFilesPaisajes{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.fileContainerPaisajes{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: all 700ms ease-in-out;
+
+}
+.fileContainerPaisajes img{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    transform: translate(-55%,0);
+}
+
+.sectionFilesAnimales{
+    width: 300px;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+}
+.fileContainerAnimales{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: all 700ms ease-in-out;
+}
+.fileContainerAnimales img{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    transform: translate(-55%,0);
+}
+
+.sectionFilesUrban{
+    margin-top: 20rem;
+    margin-bottom: 5rem;
+    width: 300px;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+}
+.fileContainerUrban{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: all 700ms ease-in-out;
+
+}
+.fileContainerUrban img{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    transform: translate(-55%,0);
+}
+
+.img1{
+    top: 0px;
+    left: -10px;
+}
+.img2{
+    top: 20px;
+    left: 10px;
+}
+.img3{
+    top: 40px;
+    left: 30px;
+}
+
+.nombreGaleria{
+    display: none;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(96, 96, 96, 0.397);
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    transform: translate(-55%,0);
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    transition: all 700ms ease-in-out;
+}
+.fileContainer:hover .nombreGaleria{
+    display: flex;
+}
+
+@media (max-width:1090px){
+    .sectionFiles{
+        flex-direction: column;
+    }
+}
+@media (max-width:350px){
+    .fileContainer img{
+        width: 250px;
+        height: 250px;
+    }
+}
+@media (max-width:330px){
+    .fileContainer img{
+        margin-left: -10px;
+        width: 220px;
+        height: 220px;
+    }
+}
