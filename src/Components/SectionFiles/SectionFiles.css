@@ -10,7 +10,7 @@
     padding: 30px;
     padding-bottom: 15rem;
     overflow: hidden;
-    background-image: url('src/assets/relleno/3.jpg');
+    background-image: url('/assets/relleno/3.jpg');
     background-attachment: fixed;
     background-position: bottom;
     background-size: cover;
