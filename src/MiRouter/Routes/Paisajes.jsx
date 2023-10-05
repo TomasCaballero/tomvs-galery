@@ -9,7 +9,7 @@ const Paisajes = () => {
     const [horientacion, setHorientacion] = useState('');
     const [imgADescargar, setImgADescargar] = useState('');
 
-    const rutaGeneral = '../../assets/Paisajes/'
+    const rutaGeneral = '/assets/Paisajes/'
 
     const seleccionarImagen = (e) => {
         const url = e.target.src;
