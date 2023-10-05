@@ -46,7 +46,7 @@ const Animales = () => {
             {
                 AnimalesData.map((animal)=>{
                     return (
-                        <motion.img src={rutaGeneral+animal.url} alt={animal.id} key={animal.id} onClick={seleccionarImagen} name={animal.formato} nonce={animal.url2}
+                        <motion.img src={rutaGeneral+animal.url} alt={animal.id} key={animal.id} onClick={seleccionarImagen} name={animal.formato} nonce={rutaGeneral+animal.url2}
                             initial={{opacity: 0.5}}
                             animate={{opacity: 0.5}}
                             whileInView={{opacity: 1}}

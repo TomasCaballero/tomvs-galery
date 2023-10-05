@@ -45,7 +45,7 @@ const Urban = () => {
             {
                 UrbanData.map((urban)=>{
                     return (
-                        <motion.img src={rutaGeneral+urban.url} alt={urban.id} key={urban.id} onClick={seleccionarImagen} name={urban.formato} nonce={urban.url2}
+                        <motion.img src={rutaGeneral+urban.url} alt={urban.id} key={urban.id} onClick={seleccionarImagen} name={urban.formato} nonce={rutaGeneral+urban.url2}
                         initial={{opacity: 0.5}}
                         animate={{opacity: 0.5}}
                         whileInView={{opacity: 1}}

@@ -45,7 +45,7 @@ const Paisajes = () => {
                 {
                     PaisajesData.map((paisaje) => {
                         return (
-                            <motion.img src={rutaGeneral+paisaje.url} alt={paisaje.id} key={paisaje.id} onClick={seleccionarImagen} name={paisaje.formato} nonce={paisaje.url2} 
+                            <motion.img src={rutaGeneral+paisaje.url} alt={paisaje.id} key={paisaje.id} onClick={seleccionarImagen} name={paisaje.formato} nonce={rutaGeneral+paisaje.url2} 
                             initial={{opacity: 0.5}}
                             animate={{opacity: 0.5}}
                             whileInView={{opacity: 1}}
