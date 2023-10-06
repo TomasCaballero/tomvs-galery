@@ -4,6 +4,7 @@
   box-sizing: border-box;
   /* font-family: monospace; */
   font-family: 'Dosis', sans-serif;
+  user-select: none;
 }
 /* Layout */
 .layout{
@@ -26,10 +27,16 @@
 
 /* Main General */
 main h4{
+  position: relative;
   display: flex;
   justify-content: center;
+  align-items: top;
   font-size: 17vw;
   color: rgba(0, 0, 0, 0.724);
+}
+main h4 .letraV{
+  position: relative;
+  margin-top: 1vw;
 }
 .galery{
   padding: 20px;

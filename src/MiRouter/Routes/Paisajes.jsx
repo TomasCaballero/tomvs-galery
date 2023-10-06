@@ -40,7 +40,7 @@ const Paisajes = () => {
         exit={{opacity: 1}}
         transition={{duration:2, ease: 'easeInOut', delay: 1}}
         >
-            <h4>Paisajes</h4>
+            <h4>P<p className='letraV'>V</p>IS<p className='letraV'>V</p>JES</h4>
             <div className="galery">
                 {
                     PaisajesData.map((paisaje) => {
@@ -73,3 +73,4 @@ const Paisajes = () => {
 
 // eslint-disable-next-line react-refresh/only-export-components
 export default Transitions(Paisajes);
+// export default Paisajes;

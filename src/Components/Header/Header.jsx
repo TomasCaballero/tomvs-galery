@@ -14,8 +14,8 @@ const Header = () => {
     }
     return (
         <header className='header'>
-            <h1 className='logo'>TOMVS</h1>
-            <img src="/assets/logo/camera-code.png" alt="" className='logoImg'/>
+            <NavLink to='/' className='linkLogo'><h1 className='logo'>TOMVS</h1>
+            <img src="/assets/logo/camera-code.png" alt="" className='logoImg'/></NavLink>
             <IconMenu2 width={22} height={22} className='menu' onClick={abrirMenu}/>
             <nav className={menu === false ? 'navbar' : 'navbar menuOpen'}>
                 <ul>

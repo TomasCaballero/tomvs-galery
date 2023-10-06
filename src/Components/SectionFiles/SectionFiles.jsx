@@ -54,7 +54,7 @@ const SectionFiles = () => {
                     <img src={`/assets/Paisajes/${arrayPaisajes[0]}.webp`} alt="" className='img1'/>
                     <img src={`/assets/Paisajes/${arrayPaisajes[1]}.webp`} alt="" className='img2'/>
                     <img src={`/assets/Paisajes/${arrayPaisajes[2]}.webp`} alt="" className='img3'/>
-                    <div className='nombreGaleria'>Paisajes</div>
+                    <div className='nombreGaleria'>P<p className='letraV'>V</p>IS<p className='letraV'>V</p>JES</div>
                 </NavLink>
             </motion.div>
 
@@ -68,7 +68,7 @@ const SectionFiles = () => {
                     <img src={`/assets/Animales/${arrayAnimales[0]}.webp`} alt="Animales1" className='img1'/>
                     <img src={`/assets/Animales/${arrayAnimales[1]}.webp`} alt="Animales2" className='img2'/>
                     <img src={`/assets/Animales/${arrayAnimales[2]}.webp`} alt="Animales1" className='img3'/>
-                    <div className='nombreGaleria'>Animales</div>
+                    <div className='nombreGaleria'><p className='letraV'>V</p>NIM<p className='letraV'>V</p>LES</div>
                 </NavLink>
             </motion.div>
 
@@ -82,7 +82,7 @@ const SectionFiles = () => {
                     <img src={`/assets/Urban/${arrayUrban[0]}.webp`} alt="Urban1" className='img1'/>
                     <img src={`/assets/Urban/${arrayUrban[1]}.webp`} alt="Urban2" className='img2'/>
                     <img src={`/assets/Urban/${arrayUrban[2]}.webp`} alt="Urban3" className='img3'/>
-                    <div className='nombreGaleria'>Urbana</div>
+                    <div className='nombreGaleria'>URB<p className='letraV'>V</p>N<p className='letraV'>V</p></div>
                 </NavLink>
             </motion.div>
         </section>

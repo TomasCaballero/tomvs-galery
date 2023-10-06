@@ -39,7 +39,7 @@ const Animales = () => {
         animate={{opacity: 1}}
         exit={{opacity: 1}}
         transition={{duration:2, ease: 'easeInOut', delay: 1}}>
-        <h4>Animales</h4>
+        <h4><p className='letraV'>V</p>NIM<p className='letraV'>V</p>LES</h4>
         <div className="galery"
 
         >

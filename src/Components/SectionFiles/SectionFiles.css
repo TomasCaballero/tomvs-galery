@@ -115,6 +115,10 @@
     font-size: 50px;
     transition: all 700ms ease-in-out;
 }
+.nombreGaleria .letraV{
+    position: relative;
+    margin-top: 5px;
+}
 .fileContainer:hover .nombreGaleria{
     display: flex;
 }
