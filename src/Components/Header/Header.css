@@ -28,6 +28,10 @@
     color: black;
     padding: 5px 5px;
     transition: all 700ms ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 .header nav ul li .active{
     font-weight: 600;

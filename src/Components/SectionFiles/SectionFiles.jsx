@@ -44,9 +44,10 @@ const SectionFiles = () => {
     return (
         <section className='sectionFiles'>
             <motion.div className='sectionFilesPaisajes'
-                initial={{translateX: -200, opacity:0}}
-                animate={{translateX: -200, opacity:0}}
-                whileInView={{translateX: 0, opacity:1}}
+                initial={{opacity:0}}
+                animate={{opacity:0.5}}
+                whileInView={{opacity:1}}
+                onViewportLeave={{opacity:1}}
                 transition={{ duration: 1, ease: 'easeIn', delay:.1}}
             >
                 <NavLink to='/paisajes' className="fileContainer fileContainerPaisajes">
@@ -58,10 +59,10 @@ const SectionFiles = () => {
             </motion.div>
 
             <motion.div className='sectionFilesAnimales'
-                initial={{translateY: 200, opacity:0}}
-                animate={{translateY: 200, opacity: 0}}
-                whileInView={{translateY: 0, opacity: 1}}
-                transition={{ duration: 1, ease: 'easeIn', delay:.1}}
+                initial={{opacity:0}}
+                animate={{opacity:0.5}}
+                whileInView={{opacity:1}}
+                transition={{ duration: 1, ease: 'easeIn', delay:.2}}
             >
                 <NavLink to='/animales' className="fileContainer fileContainerAnimales">
                     <img src={`/assets/Animales/${arrayAnimales[0]}.webp`} alt="Animales1" className='img1'/>
@@ -72,10 +73,10 @@ const SectionFiles = () => {
             </motion.div>
 
             <motion.div className='sectionFilesUrban'
-                initial={{translateX: 200, opacity:0}}
-                animate={{translateX: 200, opacity:0}}
-                whileInView={{translateX: 0, opacity:1}}
-                transition={{ duration: 1, ease: 'easeIn', delay:.1}}
+                initial={{opacity:0}}
+                animate={{opacity:0.5}}
+                whileInView={{opacity:1}}
+                transition={{ duration: 1, ease: 'easeIn', delay:.3}}
             >
                 <NavLink to='/urban' className="fileContainer fileContainerUrban">
                     <img src={`/assets/Urban/${arrayUrban[0]}.webp`} alt="Urban1" className='img1'/>

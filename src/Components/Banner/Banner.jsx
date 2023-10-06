@@ -24,8 +24,9 @@ const Banner = () => {
                 ref={textRef}
                 initial={{ opacity: 0.8, translateY: +190}}
                 animate={{opacity: 1, translateY: 0}}
+                whileInView={{opacity: 1, translateY: 0}}
                 exit={{opacity: 1, translateY: 0}}
-                transition={{duration: 3, delay: 1}}s
+                transition={{duration: 3, delay: 1}}
                 // style={{y: textY}}
             >
                 TOMVS
