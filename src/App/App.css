@@ -17,7 +17,7 @@
 /* letraV */
 .letraV{
   rotate: 180deg;
-  margin-top: 2px;
+  margin-top: 1px;
   display: inline-block;
   display: flex;
   align-items: end;
@@ -25,6 +25,9 @@
 }
 
 /* Main General */
+main{
+  min-height: 100vh;
+}
 main h4{
   position: relative;
   display: flex;
