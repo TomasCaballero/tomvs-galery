@@ -14,7 +14,7 @@ const Header = () => {
     }
     window.addEventListener('scroll', ()=>{
         let header = document.querySelector('header');
-        header.classList.toggle('sticky',window.scrollY > 80);
+        header.classList.toggle('sticky',window.scrollY > 40);
     })
     return (
         <header className='header'>
