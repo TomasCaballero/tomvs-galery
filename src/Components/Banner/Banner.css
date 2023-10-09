@@ -12,14 +12,24 @@
     backdrop-filter: blur(1px);
     top: 120px;
     z-index: 2;
-    text-shadow: 0px 0px 50px rgb(239, 239, 239);
+    /* background-image: url('../../assets/banner/bannerConFondo.jpg');
+    background-size: cover;
+    background-clip: text;
+    background-position-y: 16px;
+    -webkit-background-clip: text;
+    background-attachment: fixed; */
+    /* text-shadow: 0px 0px 50px rgb(239, 239, 239); */
     overflow-x: hidden;
 }
 .banner .imgConFondo{
     position: absolute;
     top: 0;
     background-image: url('../../assets/banner/bannerConFondo.jpg');
+    /* background-position-y: 16px;
+    background-position-x: center; */
     background-position: center;
+    /* background-attachment: fixed;
+    background-repeat: no-repeat; */
     background-size: cover;
     height: 550px;
     width: 100%;

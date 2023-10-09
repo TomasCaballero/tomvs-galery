@@ -40,7 +40,7 @@ const Urban = () => {
         exit={{opacity: 1}}
         transition={{duration:2, ease: 'easeInOut', delay: 1}}
         >
-        <h4>URB<p className='letraV'>V</p>N<p className='letraV'>V</p></h4>
+        <h4 className="tituloUrban">URB<p className='letraV'>V</p>N<p className='letraV'>V</p>.</h4>
         <div className="galery">
             {
                 UrbanData.map((urban)=>{

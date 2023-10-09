@@ -4,6 +4,7 @@
   box-sizing: border-box;
   /* font-family: monospace; */
   font-family: 'Dosis', sans-serif;
+  user-select: none;
 }
 /* Layout */
 .layout{
@@ -35,10 +36,60 @@ main h4{
   align-items: top;
   font-size: 17vw;
   color: rgba(0, 0, 0, 0.724);
+  user-select: none;
 }
 main h4 .letraV{
   position: relative;
   margin-top: 1vw;
+}
+.tituloPaisajes{
+  background-image: url('/assets/relleno/1.webp');
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.tituloPaisajes .letraV{
+  background-image: url('/assets/relleno/1.webp');
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.tituloAnimales{
+  background-image: url('/assets/relleno/buho2.webp');
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.tituloAnimales .letraV{
+  background-image: url('/assets/relleno/buho2.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-position:center center;
+  color: transparent;
+}
+.tituloUrban, .tituloUrban .letraV{
+  background-image: url('/assets/relleno/ciudad.webp');
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.tituloUrban .letraV{
+  background-image: url('/assets/relleno/ciudad.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-position:center center;
+  color: transparent;
 }
 .galery{
   padding: 20px;
@@ -59,6 +110,7 @@ main h4 .letraV{
   transform: translate(-50%, -50%);
   box-shadow: 0px 0px 50px 20px black;
   overflow: hidden;
+  z-index: 300000000;
 }
 .cardCont{
   position: relative;

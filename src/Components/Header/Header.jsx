@@ -12,6 +12,10 @@ const Header = () => {
             setMenu(false);
         }
     }
+    window.addEventListener('scroll', ()=>{
+        let header = document.querySelector('header');
+        header.classList.toggle('sticky',window.scrollY > 110);
+    })
     return (
         <header className='header'>
             <NavLink to='/' className='linkLogo'><h1 className='logo'>TOMVS</h1>

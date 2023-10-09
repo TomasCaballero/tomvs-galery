@@ -6,6 +6,17 @@
     padding: 0px 50px;
     height: 6rem;
     border-bottom: solid 1px black;
+    transition: all 700ms ease;
+}
+.sticky{
+    position: fixed;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.599);
+    backdrop-filter: blur(2px) saturate(10%);
+    z-index: 10000000;
+    height: 3rem;
+    border-bottom: solid 1px rgba(102, 102, 102, 0.3);
+
 }
 .linkLogo{
     display: flex;
