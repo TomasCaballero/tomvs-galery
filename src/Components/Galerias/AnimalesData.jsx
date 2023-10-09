@@ -21,7 +21,7 @@ const AnimalesData = [
         id:4,
         url: '4.webp',
         url2: '4.jpg',
-        formato: 'horizontal'
+        formato: 'vertical'
     },
     {
         id:5,
