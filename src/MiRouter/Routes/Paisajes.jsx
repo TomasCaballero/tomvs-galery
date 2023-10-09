@@ -40,7 +40,7 @@ const Paisajes = () => {
         exit={{opacity: 1}}
         transition={{duration:2, ease: 'easeInOut', delay: 1}}
         >
-            <h4 className="tituloPaisajes">P<p className='letraV'>V</p>IS<p className='letraV'>V</p>JES.</h4>
+            <h4 className="tituloPaisajes">P<span className='letraV'>V</span>IS<span className='letraV'>V</span>JES.</h4>
             <div className="galery">
                 {
                     PaisajesData.map((paisaje) => {

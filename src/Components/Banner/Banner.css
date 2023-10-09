@@ -17,7 +17,7 @@
 .banner .imgConFondo{
     position: absolute;
     top: 0;
-    background-image: url('../../assets/banner/bannerConFondo.jpg');
+    background-image: url('/../assets/banner/bannerConFondo.jpg');
     background-position: center;
     background-size: cover;
     height: 650px;
@@ -28,7 +28,7 @@
 .banner .imgSinFondo{
     position: absolute;
     top: 0;
-    background-image: url('../../assets/banner/bannerSinFondo2.png');
+    background-image: url('/../assets/banner/bannerSinFondo2.png');
     background-position: center;
     background-size: cover;
     height: 650px;
@@ -59,4 +59,8 @@
         font-size: 110px;
         top: 220px;
     }
+}
+
+.moverTexto{
+    transform: translateY(-20px);
 }

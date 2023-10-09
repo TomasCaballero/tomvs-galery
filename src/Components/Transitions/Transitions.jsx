@@ -20,7 +20,7 @@ const Transitions = (OriginComponent) => {
                 animate={{ scaleY: 0 }}
                 exit={{ scaleY: 1 }}
                 transition={{ duration: .5, ease: 'easeInOut' }}
-            ><p className="cargando">C<p className='letraV'>V</p>RG<p className='letraV'>V</p>NDO...</p></motion.div>
+            ><p className="cargando">C<span className='letraV'>V</span>RG<span className='letraV'>V</span>NDO...</p></motion.div>
             <motion.div
                 className="slide-out"
                 initial={{ scaleY: 1 }}
