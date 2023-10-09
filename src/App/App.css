@@ -30,6 +30,9 @@ main{
   padding-top: 6rem;
   min-height: 100vh;
 }
+.mainInicio{
+  padding-top: 0px;
+}
 main h4{
   position: relative;
   display: flex;
