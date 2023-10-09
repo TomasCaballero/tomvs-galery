@@ -14,11 +14,11 @@ const Header = () => {
     }
     window.addEventListener('scroll', ()=>{
         let header = document.querySelector('header');
-        header.classList.toggle('sticky',window.scrollY > 40);
+        header.classList.toggle('sticky',window.scrollY > 20);
     })
     return (
         <header className='header'>
-            <NavLink to='/' className='linkLogo'><h1 className='logo'>TOMVS</h1>
+            <NavLink to='/' className='linkLogo' onClick={()=>{setMenu(false)}}><h1 className='logo'>TOMVS</h1>
             <img src="/assets/logo/camera-code.png" alt="" className='logoImg'/></NavLink>
             <IconMenu2 width={22} height={22} className='menu' onClick={abrirMenu}/>
             <nav className={menu === false ? 'navbar' : 'navbar menuOpen'}>
