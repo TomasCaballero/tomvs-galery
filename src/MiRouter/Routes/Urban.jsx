@@ -58,12 +58,12 @@ const Urban = () => {
         {
                 urlImgSeleccionada === '' ? <></> : (
                     <div className="card">
-                    <div className="cardCont">
-                        <img src={urlImgSeleccionada} alt="" className={`imgCard ${horientacion}`}/>
-                        <button className="btnCarrar" onClick={cerrarImg}>Cerrar</button>
-                        <button className="btnDescargar" onClick={descargarImg}>Descargar</button>
+                        <div className="cardCont">
+                            <img src={urlImgSeleccionada} alt="" className={`imgCard ${horientacion}`}/>
+                            <button className="btnCarrar" onClick={cerrarImg}>Cerrar</button>
+                            <button className="btnDescargar" onClick={descargarImg}>Descargar</button>
+                        </div>
                     </div>
-                </div>
                 )
             }
     </motion.main>
