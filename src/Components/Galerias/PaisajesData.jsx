@@ -213,6 +213,24 @@ const PaisajesData = [
         url: '36.webp',
         url2: '36.jpg',
         formato: 'horizontal'
+    },
+    {
+        id:37,
+        url: '37.webp',
+        url2: '37.jpg',
+        formato: 'vertical'
+    },
+    {
+        id:38,
+        url: '38.webp',
+        url2: '38.jpg',
+        formato: 'vertical'
+    },
+    {
+        id:39,
+        url: '39.webp',
+        url2: '39.jpg',
+        formato: 'horizontal'
     }
 ];
 

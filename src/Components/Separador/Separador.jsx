@@ -6,8 +6,8 @@ const Separador = () => {
     return (
         <div className="separador">
             <p>Bienvenido a mi Portfolio de fotos</p>
-            <p>recorra mis álbumes</p>
-            <p>y descargue las fotos que le guste</p>
+            <p>recorre mis álbumes</p>
+            <p>y descarga las fotos que le guste</p>
 
             <IconChevronDown color='white' className='flechaAbajo'/>
 

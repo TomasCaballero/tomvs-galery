@@ -183,6 +183,12 @@ const UrbanData = [
         url: '31.webp',
         url2: '31.jpg',
         formato: 'vertical'
+    },
+    {
+        id:32,
+        url: '32.webp',
+        url2: '32.jpg',
+        formato: 'vertical'
     }
 ];
 
